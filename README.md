@@ -1,0 +1,2 @@
+# Scafe, Jr Eslint Config
+
