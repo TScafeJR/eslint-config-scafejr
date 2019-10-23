@@ -1,9 +1,11 @@
 {
   "name": "@tscafejr/eslint-config-scafejr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "These are the eslint configurations for all of my projects.",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
