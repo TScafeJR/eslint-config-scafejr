@@ -1,0 +1,21 @@
+{
+  "name": "@tscafejr/eslint-config-scafejr",
+  "version": "1.0.0",
+  "description": "These are the eslint configurations for all of my projects.",
+  "main": "index.js",
+  "files": ["index.js", "prettier.config.js", "stylelint.js", "stylelint.config.js"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "peerDependencies": {
+    "eslint": "6.5.1"
+  },
+  "dependencies": {
+    "eslint": "6.5.1"
+  },
+  "author": "Tyrone Scafe, Jr.",
+  "license": "ISC"
+}
