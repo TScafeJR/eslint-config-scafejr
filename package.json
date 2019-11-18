@@ -1,6 +1,6 @@
 {
   "name": "@tscafejr/eslint-config-scafejr",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "These are the eslint configurations for all of my projects.",
   "main": "index.js",
   "files": [

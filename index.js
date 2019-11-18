@@ -46,7 +46,13 @@ module.exports = {
         'no-var': 'error',
         'prefer-const': 'error',
         'dot-notation': ['error', { 'allowKeywords': true }],
-        'quote-props': ['error', 'consistent-as-needed']
+        'quote-props': ['error', 'consistent-as-needed'],
+        'prefer-destructuring': ["error", {
+            "array": false,
+            "object": true
+        }, {
+            "enforceForRenamedProperties": false
+        }]
     }
 };
 
