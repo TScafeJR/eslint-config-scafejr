@@ -22,7 +22,7 @@ module.exports = {
         'no-extra-semi': 'error',
         'no-irregular-whitespace': 'error',
         'no-unreachable': 'error',
-        'curly': ['error', 'multi'],
+        'curly': ['error', 'all'],
         'dot-location': ['error', 'object'],
         'eqeqeq': ['error', 'smart'],
         'no-multi-spaces': 'error',
@@ -33,7 +33,14 @@ module.exports = {
             'before': false,
             'after': true
         }],
-        'max-len': ['error', {'code': 100, 'tabWidth': 4}],
+        'max-len': ['error', {
+            'code': 100,
+            'tabWidth': 4,
+            'ignoreComments': true,
+            'ignoreTrailingComments': true,
+            'ignoreStrings': true,
+            'ignoreTemplateLiterals': true
+        }],
         'no-lonely-if': 'error',
         'no-mixed-spaces-and-tabs': 'error',
         'no-multi-assign': 'error',
@@ -45,13 +52,13 @@ module.exports = {
         'no-const-assign': 'error',
         'no-var': 'error',
         'prefer-const': 'error',
-        'dot-notation': ['error', { 'allowKeywords': true }],
+        'dot-notation': ['error', {'allowKeywords': true}],
         'quote-props': ['error', 'consistent-as-needed'],
-        'prefer-destructuring': ["error", {
-            "array": false,
-            "object": true
+        'prefer-destructuring': ['error', {
+            'array': false,
+            'object': true
         }, {
-            "enforceForRenamedProperties": false
+            'enforceForRenamedProperties': false
         }]
     }
 };
